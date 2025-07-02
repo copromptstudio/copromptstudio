@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.hero {
+  padding: 40px 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.btn {
+  background-color: #8000ff;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #da00ff;
+}
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+.tile {
+  background: #1a1a1a;
+  margin: 15px;
+  border-radius: 10px;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 0 8px #333;
+}
+.tile img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.tile-title {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
